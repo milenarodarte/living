@@ -1,0 +1,206 @@
+.container{
+    margin: 0 auto;
+}
+.header{
+   
+    height: 27.5rem;
+    width: 71.25rem;
+    display: flex;
+    gap: 8.25rem;
+    margin: 0 auto;
+    margin-top: 4.688rem;
+    margin-bottom:4.625rem ;
+}
+.logo{
+    height: 2.625;
+    width: 8rem;
+    margin-top: 3.375rem;
+    margin-bottom: 4.313rem;
+
+}
+.foto-principal{
+    width: 36.125rem;
+}
+.texto-principal {
+    color: var(--color-grey-100);
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: 150%;
+    max-width: 26.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:1.5rem ;
+}
+.h2-verde{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    color: var(--color-brand-100);
+    font-family: Inter, sans-serif;
+}
+.texto-apoio{
+    max-width: 26.875rem;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    margin-bottom: 1.5rem;
+    
+
+}
+.consumir-conteudo{
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    background-color:none;
+    border: none;
+    color: var(--color-grey-100);
+
+}
+
+.nav-bar{
+    max-width: 71.25rem;
+    height: 5.813rem;
+    display: flex;
+    flex-wrap: nowrap;
+
+    margin: 0 auto;
+    margin-bottom:2.875rem ;
+    gap: 1.25rem;
+    
+  }
+  /* .nav-bar::-webkit-scrollbar {width: 0px! important} */
+  .main-posts{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:2.75rem;
+    row-gap: 5.813rem;
+    width: 71.25rem;
+    margin: 0 auto;
+  }
+  .post{
+    width: 34.25rem;
+    height: 22.5rem;
+  
+  }
+  .img-post{
+    height:10.75rem ;
+    width: 34.25rem;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  
+  }
+  .textos-post{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .texto-post-principal{
+    color: var(--color-grey-100);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-3);
+    width: 34.25rem;
+    height: 3.75rem;
+    overflow-y: hidden;
+  }
+  .texto-post-secundario{
+    color: var(--color-grey-200);
+    width: 34.25rem;
+    height: 3rem;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-4);
+    overflow-y: hidden;
+  }
+.acessar-conteudo{
+    color: var(--color-brand-100);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    border: none;
+    background-color: #fff;
+    width: 8.813rem;
+   
+
+}
+.acessar-conteudo:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: var(--color-grey-100);
+    display: flex;
+    height: 15.938rem;
+  
+    
+}
+.container-footer{
+    width: 71.25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-footer{
+    display: flex;
+    gap: 3.375rem;
+}
+.p-rodape{
+    width: 34.438rem;
+    color: var(--color-grey-400);
+    font-size: var(--font-size-4);
+    font-weight:400;
+
+}
+.header-post{
+    padding: 1.875rem 0rem 1.875rem 0rem;
+    width: 71.25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.sub-header{
+    background-color:var(--color-grey-700) ;
+    width: 100vw;
+    height: 21rem;
+    padding: 5rem 0rem 5rem 0rem;
+    margin-bottom: 3.313rem;
+}
+  .title{
+    width: 71.25rem;
+    margin: 0 auto;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-100);
+    max-height: 7.5rem;
+   line-height: 150%;
+    margin-bottom: 2rem;
+}
+.subtitle{
+    width: 71.25rem;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    color: var(--color-grey-200);
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.post-main{
+    margin-bottom: 3.75rem;
+}
+.img-main{
+    width: 71.75rem;
+    height:25.125rem ;
+    object-fit: cover;
+    
+    margin: 0 auto;
+    margin-bottom: 3.25rem;
+
+}
+.text-post{
+    width: 71.75rem;
+    margin: 0 auto;
+    
+    color: var(--color-grey-200);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+
+}
+.container-post{
+    width: 71.75rem;
+    margin: 0 auto; 
+}
